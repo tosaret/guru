@@ -1,0 +1,73 @@
+
+
+
+
+
+nav.navbar {
+	background: #fff;
+	height: 104px;
+	line-height: 104px;
+}
+.navbar-default .navbar-nav>li>a {
+	line-height: 104px;
+	padding: 0 19px;
+	color: #5d7e93;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a.download {
+	color: #f45d8b;
+}
+
+#logo {
+	text-align: center;
+	width: 200px;
+	margin: -50px auto 0;
+	background: #fff;
+	position: relative;
+	z-index: 2;
+}
+#logo img {
+	max-width: 104px;
+	height: auto;
+}
+.logo-text {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.your-guru {
+	background: url(img/guru-bg.png) center top no-repeat;
+}
+.your-guru img {
+	display: inline-block;
+}
+.your-guru:hover {
+	transform: translate3d(2,2,1);
+}
+.guru-parallax {
+	background: url(img/waves.png) bottom center no-repeat;
+	background-size: 100% auto;
+	padding-bottom: 325px;
+}
+
+.brain-wrapper {
+	height: 600px;
+	background: url(img/brain.png) top center no-repeat;
+}
+
+.divider2 {
+	text-align: center;
+}
+.divider2 img {
+	display: inline-block;
+	max-width: 30%;
+}
+
+
+
+
+
+
+
+
+
