@@ -101,8 +101,11 @@ nav.navbar {
 }
 
 .brain-wrapper {
+	width: 656px;
+	margin: 0 auto;
 	height: 600px;
-	background: url(img/brain.png) top center no-repeat;
+	text-align: center;
+	position: relative;
 }
 .brain h2 {
 	margin-bottom: 110px;
@@ -112,6 +115,65 @@ nav.navbar {
 	color: rgba(0,0,0,0.42);
 	text-align: center;
 	margin-top: 35px;
+}
+.brain-img {
+	display: inline-block;
+	margin: 0 auto;
+	position: relative;
+	z-index: 5;
+}
+.brain .caption {
+	position: absolute;
+	z-index: 6;
+	font-size: 22px;
+	color: #5d7e93;
+	text-transform: uppercase;
+	white-space: nowrap;
+	transition: all 300ms ease-in;
+}
+.brain .caption1 {
+	left: 45px;
+	top: -50px;
+	padding-right: 174px;
+	background: url(img/caption1.png) right top no-repeat;
+	height: 174px;
+	line-height: 150px;
+}
+.brain .caption1:hover {
+	background: url(img/caption1h.png) right top no-repeat;
+}
+.brain .caption2 {
+	left: 400px;
+	top: 0px;
+	padding-left: 174px;
+	background: url(img/caption2.png) left top no-repeat;
+	height: 174px;
+	line-height: 150px;
+}
+.brain .caption2:hover {
+	background: url(img/caption2h.png) left top no-repeat;
+}
+.brain .caption3 {
+	left: 50px;
+	top: 320px;
+	padding-right: 174px;
+	background: url(img/caption3.png) right top no-repeat;
+	height: 174px;
+	line-height: 150px;
+}
+.brain .caption3:hover {
+	background: url(img/caption3h.png) right top no-repeat;
+}
+.brain .caption4 {
+	left: 300px;
+	top: 200px;
+	padding-left: 174px;
+	background: url(img/caption4.png) left top no-repeat;
+	height: 174px;
+	line-height: 150px;
+}
+.brain .caption4:hover {
+	background: url(img/caption4h.png) left top no-repeat;
 }
 
 .divider2,
@@ -146,6 +208,32 @@ nav.navbar {
 }
 .app img {
 	display: inline-block;
+}
+.bg01 {
+	background: url(img/bg01.png) top left no-repeat;
+	background-size: 60vw auto;
+	height: 750px;
+	padding-top: 150px;
+	margin-top: -100px;
+}
+.bg02 {
+	background: url(img/bg02.png) top right no-repeat;
+	background-size: 60vw auto;
+	height: 750px;
+	padding-top: 130px;
+	margin-top: -80px;
+}
+.bg03 {
+	background: url(img/bg03.png) top left no-repeat;
+	height: 750px;
+	padding-top: 130px;
+	margin-top: -80px;
+}
+.bg04 {
+	background: url(img/bg04.png) top right no-repeat;
+	height: 750px;
+	padding-top: 130px;
+	margin-top: -80px;
 }
 
 .download-banner {
