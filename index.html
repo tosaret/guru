@@ -8,6 +8,7 @@
   <title>MyGuru</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="animate.css">
   <link rel="stylesheet" href="style.css">
 
   <!--[if lt IE 9]>
@@ -33,37 +34,37 @@
 			    
 			    <div id="main-nav">
 				    <ul class="nav navbar-nav">
-					    <li><a href="#">О приложении</a></li>
-					    <li><a href="#">Функции</a></li>
+					    <li><a href="#about">О приложении</a></li>
+					    <li><a href="#function">Функции</a></li>
 				    </ul>
 				    
 				    <ul class="nav navbar-nav navbar-right">
-					    <li><a href="#">Задать вопрос</a></li>
-					    <li><a href="#" class="download">Скачать</a></li>
+					    <li><a href="#question">Задать вопрос</a></li>
+					    <li><a href="#download-app" class="download">Скачать</a></li>
 				    </ul>
 			    </div>
 			    
 			</div>
 		</nav>
 		
-		<div id="logo">
+		<div id="logo" class="animated fadeInUp">
 			<img src="img/logo.png" />
 		</div>
 		
-		<p class="logo-text">Развитие личных компетенций</p>
+		<p class="logo-text animated fadeInUp">Развитие личных компетенций</p>
 		
 	</header>
 	
-	<div class="guru-parallax">
+	<div class="guru-parallax" id="about">
 		<div class="your-guru">
 			<div class="container text-center">
-				<h2>Ваш личный гуру,<br> который всегда рядом</h2>
-				<div class="guru-img"><img src="img/guru.png" class="img-responsive" /></div>
-				<div class="iphone-img"><img src="img/iphone.png" class="img-responsive" /></div>
-				<p>MyGuru поможет устранить весь информационный шум и посторонние<br>
+				<h2 class="animated fadeInUp">Ваш личный гуру,<br> который всегда рядом</h2>
+				<div class="guru-img animated fadeInUp"><img src="img/guru.png" class="img-responsive" /></div>
+				<div class="iphone-img animated fadeInUp"><img src="img/iphone.png" class="img-responsive" /></div>
+				<p class="animated fadeInUp">MyGuru поможет устранить весь информационный шум и посторонние<br>
 				раздражители, и сосредоточиться на самом главном —<br>
 				на себе и своем личностном росте.</p>
-				<div class="waves">
+				<div class="waves animated fadeInUp">
 					<a href="#"><img src="img/store.png" /></a>
 				</div>
 			</div>
@@ -99,7 +100,7 @@
 		<img src="img/divider2.png" class="img-responsive" />
 	</div>
 
-	<div class="app">
+	<div class="app" id="function">
 		<div class="container-fluid">
 			<h2 class="text-center">Все необходимое<br> в одном приложении</h2>
 
@@ -167,7 +168,7 @@
 		<img src="img/divider3.png" class="img-responsive" />
 	</div>
 
-	<div class="app-store">
+	<div class="app-store" id="download-app">
 		<h2 class="text-center">Скачайте бесплатно в App Store</h2>
 		<div class="download-banner">
 			<div class="container">
@@ -184,7 +185,7 @@
 		</div>
 	</div>
 	
-	<footer>
+	<footer id="question">
 		<div class="container">
 			<h2 class="text-center">Если у Вас остались вопросы,<br> мы с радостью на них ответим)</h2>
 			<form class="form">
