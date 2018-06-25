@@ -8,7 +8,7 @@
   <title>MyGuru</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="animations.css">
   <link rel="stylesheet" href="style.css">
 
   <!--[if lt IE 9]>
@@ -47,16 +47,21 @@
 			</div>
 		</nav>
 		
-		<div id="logo" class="animated fadeInUp">
+		<div id="logo">
 			<img src="img/logo.png" alt="" />
 		</div>
 		
-		<p class="logo-text animated fadeInUp">Развитие личных компетенций</p>
+		<p class="logo-text">Развитие личных компетенций</p>
 		
 	</header>
 	
 	<div class="guru-parallax" id="about">
-		<div class="your-guru">
+		<div class="parallax-container">
+			<div class="parallax-base">
+				<div class="bg layer-1"><img src="img/guru-bg.png" class="img-responsive" alt="" /></div>
+			</div>
+		</div>
+		<div class="your-guru animatedParent animateOnce">
 			<div class="container text-center">
 				<h2 class="animated fadeInUp">Ваш личный гуру,<br> который всегда рядом</h2>
 				<div class="guru-img animated fadeInUp"><img src="img/guru.png" class="img-responsive" alt="" /></div>
@@ -76,17 +81,29 @@
 		<div class="brain-wrapper">
 			<img src="img/brain.png" class="brain-img" alt="" />
 
-			<div class="caption caption1">
+			<div class="caption caption1" data-caption="1">
 				Эмоции
 			</div>
-			<div class="caption caption2">
+			<div class="caption caption2" data-caption="2">
 				Отношения
 			</div>
-			<div class="caption caption3">
+			<div class="caption caption3" data-caption="3">
 				Цели
 			</div>
-			<div class="caption caption4">
+			<div class="caption caption4" data-caption="4">
 				Личная эффективность
+			</div>
+			<div class="caption-active caption-active-1">
+				<img src="img/caption1a.png" alt="" />
+			</div>
+			<div class="caption-active caption-active-2">
+				<img src="img/caption2a.png" alt="" />
+			</div>
+			<div class="caption-active caption-active-3">
+				<img src="img/caption3a.png" alt="" />
+			</div>
+			<div class="caption-active caption-active-4">
+				<img src="img/caption4a.png" alt="" />
 			</div>
 		</div>
 		<p>Четыре направления духовно-психологического развития и комплекс<br> физических упражнений и медитативных практик комплексно<br> развивают Вас и усиливают эффект друг друга. </p>
@@ -104,13 +121,13 @@
 		<div class="container-fluid">
 			<h2 class="text-center">Все необходимое<br> в одном приложении</h2>
 
-			<div class="bg01">
+			<div class="bg01 animatedParent animateOnce">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-5 text-center">
+						<div class="col-sm-5 text-center animated fadeInLeft">
 							<img src="img/screen1.png" class="img-responsive" alt="" />
 						</div>
-						<div class="col-sm-7">
+						<div class="col-sm-7 animated fadeInRight">
 							<div class="number">01</div>
 							<h3>Индивидуально подобранная<br> программа на основе ваших данных<br> и предпочтений</h3>
 							<p>Ты — неповторим. И «Мой Гуру» настраивается под твои цели и желания. Программа максимально гибко работает для тебя. Как только твои взгляды, предпочтения меняются, внести корректировки в настройки. Это поможет жить в гармонии с самим собой всегда, не подстраиваться под общие правила и стереотипы.</p>
@@ -118,27 +135,27 @@
 					</div>
 				</div>
 			</div>
-			<div class="bg02">
+			<div class="bg02 animatedParent animateOnce">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-7">
+						<div class="col-sm-7 animated fadeInLeft">
 							<div class="number">02</div>
 							<h3>Простой и удобный таймер<br> медитации</h3>
 							<p>Во время прослушивания медитативных упражнений, пользователь выбирает звуковое сопровождение встряхиванием вправо-влево кнопок, расположенных под кнопками управления аудио файлов, приятное для его восприятия (шум водопада, звуки леса, пианино, классика, или свой плейлист).</p>
 						</div>
-						<div class="col-sm-5 text-center">
+						<div class="col-sm-5 text-center animated fadeInRight">
 							<img src="img/screen2.png" class="img-responsive" alt="" />
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="bg03">
+			<div class="bg03 animatedParent animateOnce">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-5 text-center">
+						<div class="col-sm-5 text-center animated fadeInLeft">
 							<img src="img/screen3.png" class="img-responsive" alt="" />
 						</div>
-						<div class="col-sm-7">
+						<div class="col-sm-7 animated fadeInRight">
 							<div class="number">03</div>
 							<h3>Чек-лист для контроля<br> выполнения заданий</h3>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec</p>
@@ -146,15 +163,15 @@
 					</div>
 				</div>
 			</div>
-			<div class="bg04">
+			<div class="bg04 animatedParent animateOnce">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-7">
+						<div class="col-sm-7 animated fadeInLeft">
 							<div class="number">04</div>
 							<h3>Самооценка и построение<br> наглядных графиков на основе<br> собранных данных</h3>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec</p>
 						</div>
-						<div class="col-sm-5 text-center">
+						<div class="col-sm-5 text-center animated fadeInRight">
 							<img src="img/screen4.png" class="img-responsive" alt="" />
 						</div>
 					</div>
@@ -205,7 +222,7 @@
 					Мой гуру, 2018. Все права защищены 
 				</div>
 				<div class="col-md-5 text-right">
-					дизайн <a href="#">YOD</a>
+					<a href="http://yodba.ru/" target="_blank"><img src="img/footer-logo.png" alt="" /></a>
 				</div>
 			</div>
 		</div>
@@ -213,6 +230,7 @@
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="css3-animate-it.js"></script>
 	<script src="app.js"></script>
 
 </body>
