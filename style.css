@@ -390,5 +390,12 @@ form button:hover {
  	.brain-wrapper {
  		display: none;
  	}
+ 	.meditate,
+ 	.bg01,
+ 	.bg02,
+ 	.bg03,
+ 	.bg04 {
+ 		height: auto;
+ 	}
 }
 
