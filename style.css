@@ -14,6 +14,7 @@ body {
 	font-family: 'Proxima Nova';
 	font-size: 16px;
 	color: #000;
+	overflow-x: hidden;
 }
 
 h2 {
@@ -322,6 +323,12 @@ nav.navbar {
 	color: #5d7e93;
 }
 
+.meditate {
+	position: relative;
+	overflow: hidden;
+	height: 1100px;
+}
+
 footer {
 	height: 942px;
 	background: url(img/footer-left.png) top left no-repeat,
@@ -376,5 +383,12 @@ form button:hover {
 	top: -5px;
 }
 
-
+ @media only screen and (max-width : 768px) {
+ 	nav.navbar a {
+ 		display: none;
+ 	}
+ 	.brain-wrapper {
+ 		display: none;
+ 	}
+}
 

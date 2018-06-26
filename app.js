@@ -27,10 +27,20 @@ function cssParallax(cont, el, radiusVal){
 }
 
 $(document).ready(function() {
-  cssParallax('.guru-parallax', '.parallax-base', 6);
 
-  $('.caption').mouseover(function() {
-  	$('.caption-active').fadeOut();
-  	$('.caption-active-'+$(this).attr('data-caption')).fadeIn();
-  });
+
+	if ( $(window).width() > 768 ) {
+
+	  cssParallax('.guru-parallax', '.parallax-base', 6);
+	  cssParallax('.meditate', '.parallax-base', 6);
+
+	  $('.caption').mouseover(function() {
+	  	$('.caption-active').fadeOut();
+	  	$('.caption-active-'+$(this).attr('data-caption')).fadeIn();
+	  });
+
+	} else {
+
+	}
+
 });
